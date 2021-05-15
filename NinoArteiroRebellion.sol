@@ -1673,9 +1673,9 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable 
 }
 
 /**
- * @title NinoArteiroRebellion
+ * @title MujerAumentada
  */
-contract NinoArteiroRebellion is ERC721, Ownable {
+contract MujerAumentada is ERC721, Ownable {
     constructor (string memory name, string memory symbol) public ERC721(name, symbol) { }
 
     function exists(uint256 tokenId) public view returns (bool) {
